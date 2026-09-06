@@ -1,0 +1,6 @@
+# Install opencv-contrib-python for the preview window. If you only ever run
+# with --headless (a kiosk, a server, an SSH session) the -headless wheel is
+# smaller and pulls in no GUI libraries.
+opencv-contrib-python>=4.7
+numpy>=1.24
+cryptography>=42.0

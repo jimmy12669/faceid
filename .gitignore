@@ -1,0 +1,15 @@
+# Never commit enrolments, keys, logs or models.
+.faceid/
+*.onnx
+*.db
+*.db-wal
+*.db-shm
+keystore.json
+audit.log
+captured_images/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
